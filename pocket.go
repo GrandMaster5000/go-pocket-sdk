@@ -36,7 +36,7 @@ type (
 
 	authorizeRequest struct {
 		ConsumerKey string `json:"consumer_key"`
-		Code        string `json:"redirect_uri"`
+		Code        string `json:"code"`
 	}
 
 	AuthorizeResponse struct {
